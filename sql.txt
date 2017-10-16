@@ -1,0 +1,7 @@
+CREATE TABLE interens17_hebergement (
+	id smallint SERIAL PRIMARY KEY,
+	firstname varchar(40) NOT NULL,
+	lastname varchar(40) NOT NULL,
+	opt1 varchar(1) NOT NULL,
+	opt2 varchar(2) NOT NULL,
+);
